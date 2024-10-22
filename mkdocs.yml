@@ -1,0 +1,45 @@
+site_name: Adobe Commerce Developer Professional Certification Course
+site_description: A comprehensive course to prepare for the AD0-E717 exam.
+site_author: Your Name
+theme:
+  name: material
+  language: en
+  features:
+    - navigation.tabs
+    - navigation.sections
+    - toc.integrate
+    - content.table.striped
+nav:
+  - Home: index.md
+  - Modules:
+      - Introduction:
+          - 'Module 1: Introduction': modules/module1.md
+      - 'Module 2: Magento Module Development': modules/module2.md
+      - 'Module 3: Database Schema and Data Handling': modules/module3.md
+      - 'Module 4: EAV Model and Attribute Management': modules/module4.md
+      - 'Module 5: Frontend Development and Theming': modules/module5.md
+      - 'Module 6: JavaScript Customizations': modules/module6.md
+      - 'Module 7: Routing and Controllers': modules/module7.md
+      - 'Module 8: Plugins and Dependency Injection': modules/module8.md
+      - 'Module 9: Working with Cron Jobs': modules/module9.md
+      - 'Module 10: Cloud Environment Management': modules/module10.md
+      - 'Module 11: Security and Compliance': modules/module11.md
+      - 'Module 12: Testing and Troubleshooting': modules/module12.md
+      - 'Module 13: Final Review and Exam Preparation': modules/module13.md
+  - Resources:
+      - 'Additional Resources': resources.md
+      - 'Exam Preparation': exam-preparation.md
+markdown_extensions:
+  - admonition
+  - codehilite
+  - footnotes
+  - meta
+  - toc:
+      permalink: true
+  - pymdownx.highlight:
+      anchor_linenums: true
+      line_spans: __span
+      pygments_lang_class: true
+  - pymdownx.inlinehilite
+  - pymdownx.snippets
+  - pymdownx.superfences      
